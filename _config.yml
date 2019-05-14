@@ -2,7 +2,7 @@ title: Developer's Thought
 #description: My Personal Stack Problems
 author: Sagar Jadhav
 github: https://github.com/sagar-jadhav
-about:  ☁️  Cloud Developer, IBM Software Labs | 🔥YouTuber | 👨🏻‍💻 Speaker | 🐳Technology Enthusiast
+about:  Cloud Developer, IBM Software Labs | YouTuber | Speaker | Technology Enthusiast
 #disqus_shortname: stackproblems
 #google_analytics: UA-XXXXXXXX-Y
 avatar_url: /static/img/avatar.jpg
@@ -16,20 +16,20 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
+    #- icon: fa-facebook
+    #  link: "#"
     - icon: fa-twitter
-      link: "SagarJadhv23"
+      link: "https://twitter.com/SagarJadhv23"
     - icon: fa-linkedin
-      link: "SagarJadhv23"
-    - icon: fa-stack-exchange
-      link: "#"
+      link: "www.linkedin.com/in/sagarjadhv23"
+    #- icon: fa-stack-exchange
+    #  link: "#"
     - icon: fa-github
       link: "https://github.com/sagar-jadhav"
 
 share:
-  twitter_username: github.io
-  fb_appid: 1749788565247320
+  twitter_username: SagarJadhv23
+  #fb_appid: 1749788565247320
 
 urls:
     - text: About Me
