@@ -5,7 +5,7 @@ github: https://github.com/sagar-jadhav
 #about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
 #disqus_shortname: stackproblems
 #google_analytics: UA-XXXXXXXX-Y
-#avatar_url: /static/img/avatar.jpg
+avatar_url: /static/img/avatar.jpg
 
 enableTags: true
 tagarray: []
@@ -19,9 +19,9 @@ social:
     - icon: fa-facebook
       link: "#"
     - icon: fa-twitter
-      link: "#"
+      link: "SagarJadhv23"
     - icon: fa-linkedin
-      link: "#"
+      link: "SagarJadhv23"
     - icon: fa-stack-exchange
       link: "#"
     - icon: fa-github
