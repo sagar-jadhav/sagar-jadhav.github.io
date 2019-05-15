@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
-categories: bash
+categories: microservices
 title: Microservices
 permalink: /category/microservices
 ---
