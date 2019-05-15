@@ -5,8 +5,6 @@ date:   2019-05-15
 categories: [microservices]
 ---
 
-### Challenges in Developing Microservices
-
 With **microservices** designing & architecting of application is changed not just implementation but the way you think as a developer, QA & Architect is also changed because with microservices you are building an application which comprises of interconnected small components whereas each component has its own unique responsibilities. Before microservices all the applications are **Monolithic** applications where application is not divided into components but it may contain modules but that are internal to application and those modules are depended on each other.
 
 ###### As per my experience following are the challenges you may face while developing application using micro services architecture:
