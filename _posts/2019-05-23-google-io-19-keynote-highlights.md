@@ -1,12 +1,11 @@
 ---
 layout: post
 title:  "Google Keynote I/O'19 Highlights"
-date:   2019-05-23
+date:   2019-05-15
 categories: [keynotes]
 ---
 
 ### 20 key take aways from Google Keynote I/O'19
-
 
 1. End to end news coverage in *Google Search*
 
@@ -36,7 +35,7 @@ categories: [keynotes]
 
 14. *Android Q* will support 5G.
 
-15. *Live Caption* support in *Androi Q*. You can use live caption without internet also.
+15. *Live Caption* support in *Android Q*. You can use live caption without internet also.
 
 16. *Smart Reply* support for all messaging apps in *Android Q*.
 
@@ -47,6 +46,5 @@ categories: [keynotes]
 19. Updatable OS Modules without restart of mobile phones.
 
 20. New **Focus Mode** in *Android Q* which will disable selected app notification.
-
 
 #### Reference: [Google Keynote I/O'19 Keynote](https://www.youtube.com/watch?v=TQSaPsKHPqs)
