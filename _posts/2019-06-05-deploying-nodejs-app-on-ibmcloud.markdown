@@ -22,16 +22,16 @@ We will deploy a sample Node JS application on IBM Cloud that will store data in
 
 ### Deploying sample Node JS starter application
 
-#### Step-1 Select SDK for Node.js service
+#### Step 1 Select SDK for Node.js service
 ![Select SDK for Node.js Service](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_1_1.jpg)
 
-#### Step-2 Provide unique name to application and then create application
+#### Step 2 Provide unique name to application and then create application
 ![Provide unique name to application followed by creating application](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_1_2.jpg)
 
-#### Step-3 Click on "Visit App URL" once application comes in awake state
+#### Step 3 Click on "Visit App URL" once application comes in awake state
 ![Click on "Visit App URL" once application comes in awake state](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_1_3.jpg)
 
-#### Step-4 Verify application is up & running
+#### Step 4 Verify application is up & running
 ![Application starting page comes up](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_1_4.jpg)
 
 
@@ -136,7 +136,7 @@ ibmcloud cf apps
 ![Restage application](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_2_8.jpg)
 ![Restage application](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_2_9.jpg)
 
-**Notes:**
+**Note:**
 Once connection is established between Cloudant database service & Node JS application then after restage database connection credentials are exposed as environment variables in the environment where Node JS application is deployed.
 
 ### Verifying deployed application
