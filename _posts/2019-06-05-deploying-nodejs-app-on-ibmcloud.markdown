@@ -9,7 +9,7 @@ categories: [ibmcloud, nodejs]
 
 - Enable developer to develop & deploy Node JS application on IBM Cloud.
 - Enable developer to use IBM Cloud Cloudant NoSQL database service.
-- Enable developer to connect Cloudant NoSQL database with existing deployed Node JS Application.
+- Enable developer to connect Cloudant NoSQL database service with existing deployed Node JS Application.
 
 ### Pre-requistes
 
@@ -18,28 +18,28 @@ categories: [ibmcloud, nodejs]
 - [Node JS](https://nodejs.org/en/download/current/)
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-We will deploy sample Node JS application on IBM Cloud that will store data in Cloudant NoSQL database.
+We will deploy a sample Node JS application on IBM Cloud that will store data in Cloudant NoSQL database.
 
-### Deploying sample Node JS Starter Application
+### Deploying sample Node JS starter application
 
-#### Step-1 Select SDK for Node.js Service
+#### Step-1 Select SDK for Node.js service
 ![Select SDK for Node.js Service](../static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_1_1.jpg)
 
-#### Step-2 Provide unique name to application followed by creating application
+#### Step-2 Provide unique name to application and then create application
 ![Provide unique name to application followed by creating application](../static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_1_2.jpg)
 
 #### Step-3 Click on "Visit App URL" once application comes in awake state
 ![Click on "Visit App URL" once application comes in awake state](../static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_1_3.jpg)
 
-#### Step-4 Application starting page comes up
+#### Step-4 Verify application is up & running
 ![Application starting page comes up](../static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_1_4.jpg)
 
 
 ### Running Application locally
 
-In previous section we have deployed a Node JS starter application to understand how to get started with application deployment on IBM Cloud. Now we will run sample Node JS application on local machine.
+In previous section we have deployed a Node JS starter application to understand how to get started with application deployment on IBM Cloud. Now we will run a sample Node JS application on local machine.
 
-#### Step 1 Clone GitHub repository
+#### Step 1 Clone GitHub repository containing source code of sample application
 
 ```
 git clone https://github.com/IBM-Cloud/get-started-node
@@ -95,7 +95,7 @@ ibmcloud login --sso
 ibmcloud target --cf
 ```
 
-#### Step 4 Deploying application
+#### Step 4 Deploy application
 
 ```
 ibmcloud cf push
@@ -115,7 +115,7 @@ ibmcloud cf apps
 #### Step 2 Select Cloudant database service
 ![Select Cloudant database service](../static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_2_2.jpg)
 
-#### Step 3 Select authentication methods
+#### Step 3 Select authentication methods and then create a service
 ![Select authentication methods](../static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_2_3.jpg)
 
 ### Connect Cloudant database service with deployed Node JS application
@@ -129,16 +129,19 @@ ibmcloud cf apps
 #### Step 3 Create a connection
 ![Create a connection](../static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_2_6.jpg)
 
-#### Step 4 Select region & connect the application
+#### Step 4 Select region and then connect the application
 ![Select region & connect the application](../static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_2_7.jpg)
 
 #### Step 5 Restage application
 ![Restage application](../static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_2_8.jpg)
 ![Restage application](../static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_2_9.jpg)
 
+**Notes:**
+- Once connection is established between Cloudant database service & Node JS application then after restage database connection credentials are exposed as environment variables in the environment where Node JS application is deployed.
+
 ### Verifying deployed application
 
-#### Step 1 Go to deployed Node JS application service
+#### Step 1 Go to Resource List
 ![Go to deployed Node JS application service](../static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_2_10.jpg)
 
 #### Step 2 Select application
@@ -152,3 +155,11 @@ ibmcloud cf apps
 
 #### Step 5 Verify name has been added in database
 ![Verify name has been added in database](../static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_2_14.jpg)
+
+### Conclusion
+
+Both **SDK for Node.js** & **Cloudant database service** comes free with IBM Cloud Lite account with usage limitation, hence it can be used by the following:
+
+- Student who want to develop & deploy application on Cloud for internal/external project.
+- Student or Working Professionals who are planning a start up and want a platform where application can be developed & deployed with no cost and less time.
+- Working professional who wants to do some kind of POC or want to explore Cloud.
