@@ -35,7 +35,7 @@ We will deploy a sample Node JS application on IBM Cloud that will store data in
 ![Application starting page comes up](../static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_1_4.jpg)
 
 
-### Running Application locally
+### Running application locally
 
 In previous section we have deployed a Node JS starter application to understand how to get started with application deployment on IBM Cloud. Now we will run a sample Node JS application on local machine.
 
@@ -137,7 +137,7 @@ ibmcloud cf apps
 ![Restage application](../static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_2_9.jpg)
 
 **Notes:**
-- Once connection is established between Cloudant database service & Node JS application then after restage database connection credentials are exposed as environment variables in the environment where Node JS application is deployed.
+Once connection is established between Cloudant database service & Node JS application then after restage database connection credentials are exposed as environment variables in the environment where Node JS application is deployed.
 
 ### Verifying deployed application
 
