@@ -23,7 +23,7 @@ We will deploy a sample Node JS application on IBM Cloud that will store data in
 ### Deploying sample Node JS starter application
 
 #### Step-1 Select SDK for Node.js service
-![Select SDK for Node.js Service]({{site.url}}/static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_1_1.jpg)
+![Select SDK for Node.js Service](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_1_1.jpg)
 
 #### Step-2 Provide unique name to application and then create application
 ![Provide unique name to application followed by creating application](../static/img/_posts/deploying_nodejs_app_on_ibmcloud/step_1_2.jpg)
