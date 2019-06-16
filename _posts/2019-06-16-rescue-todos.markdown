@@ -38,7 +38,7 @@ The Solution comprises of Backend, Frontend Systems over Cloud, Cloud Services a
 #### Server 1
 Node JS Cloud Foundary App deployed on IBM Cloud. 
 
-Responsibilities:
+**Responsibilities**:
 - Make API request to Watson Visual Recognition service with disaster image.
 - Make API request to Server 2 containing information on type of disaster returned from above API call.
 
@@ -48,7 +48,7 @@ Watson service created on IBM Cloud. It will determine whether the image is of *
 #### Server 2
 Node JS Cloud Foundary App deployed on IBM Cloud. 
 
-Responsibilities:
+**Responsibilities**:
 - Create database entry about disaster in Cloudant database.
 - Make API request to Firebase Cloud Messaging server with notification message containing to do's required for survival.
 - Create database entry about victim's status in Cloudant database.
@@ -62,7 +62,7 @@ Firebase Cloud Messaging (FCM) is a cross-platform messaging solution that lets 
 #### UI
 Angular App deployed on IBM Cloud. 
 
-Responsibilities: 
+**Responsibilities**: 
 - Show disaster information.
 - Draw Geo Fence on Google Map & Show victims information such as location, name, status (Safe/Injured/Critical) & phone number.
 
