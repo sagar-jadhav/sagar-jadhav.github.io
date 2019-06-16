@@ -25,7 +25,7 @@ The Solution comprises of Backend, Frontend Systems over Cloud, Cloud Services a
 
 ### Solution Architecture
 
-![Solution Architect](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/blog_post/static/img/_posts/hackathon_project/hackathon_project_architecture.png)
+![Solution Architect](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/hackathon_project/hackathon_project_architecture.png)
 
 #### Technologies Used
 
@@ -90,22 +90,22 @@ Angular App deployed on IBM Cloud.
 
 ### Demo
 
-![Step 1](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/blog_post/static/img/_posts/hackathon_project/Step_1.jpg)
+![Step 1](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/hackathon_project/Step_1.jpg)
 
-![Step 2](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/blog_post/static/img/_posts/hackathon_project/Step_2.jpg)
+![Step 2](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/hackathon_project/Step_2.jpg)
 
-![Step 3](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/blog_post/static/img/_posts/hackathon_project/Step_3.png)
+![Step 3](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/hackathon_project/Step_3.png)
 
-![Step 4](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/blog_post/static/img/_posts/hackathon_project/Step_4.png)
+![Step 4](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/hackathon_project/Step_4.png)
 
-![Step 5](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/blog_post/static/img/_posts/hackathon_project/Step_5.png)
+![Step 5](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/hackathon_project/Step_5.png)
 
-![Step 6](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/blog_post/static/img/_posts/hackathon_project/Step_6.jpg)
+![Step 6](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/hackathon_project/Step_6.jpg)
 
-![Step 7](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/blog_post/static/img/_posts/hackathon_project/Step_7.jpg)
+![Step 7](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/hackathon_project/Step_7.jpg)
 
-![Step 8](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/blog_post/static/img/_posts/hackathon_project/Step_8.jpg)
+![Step 8](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/hackathon_project/Step_8.jpg)
 
 #### Running Demo
-![Running Demo](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/blog_post/static/img/_posts/hackathon_project/demo.gif)
+![Running Demo](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/hackathon_project/demo.gif)
 
