@@ -15,7 +15,7 @@ On 11th June 2019 I have participated in a **Call for Code Hackathon** organized
 
 ### Problem Statement
 
-Panic situation arises after any disaster. Human being has a tendency of not able to think rationally or to take quick decisions in panic situations. At that moment to get rescued or survive from disaster they need to rely on other means such as rescue teams, announcements etc.  But ideally what they requires is minimalistic information on what are the next steps they have to take for survival for e.g. In case of earthquake, victim needs to go to the nearest safe place and after earthquake they need to contact on xyz emergency number or visit the nearest survival camp.
+Panic situation arises after any disaster. Human being has a tendency of not able to think rationally or to take quick decisions in panic situations. At that moment to get rescued or survive from disaster they need to rely on other means such as rescue teams, announcements etc.  But ideally what they requires is minimalistic information on what are the next steps they have to take for survival for e.g. In case of earthquake, victim needs to go to the nearest safe place and after earthquake they need to contact to xyz emergency number or visit the nearest survival camp.
 
 ### Proposed Solution
 
@@ -40,18 +40,18 @@ Node JS Cloud Foundary App deployed on IBM Cloud.
 
 **Responsibilities**:
 - Make API request to Watson Visual Recognition service with disaster image.
-- Make API request to Server 2 containing information on type of disaster returned from above API call.
+- Make API request to Server 2 with information on type of disaster returned from above API call.
 
 #### IBM Watson Visual Recognition Service
-Watson service created on IBM Cloud. It will determine whether the image is of **Fire** or **Flood** Disaster.
+Watson service created on IBM Cloud. It will determine whether the image is of type **Fire** or **Flood** Disaster.
 
 #### Server 2
 Node JS Cloud Foundary App deployed on IBM Cloud. 
 
 **Responsibilities**:
-- Create database entry about disaster in Cloudant database.
+- Add database entry about disaster in Cloudant database.
 - Make API request to Firebase Cloud Messaging server with notification message containing to do's required for survival.
-- Create database entry about victim's status in Cloudant database.
+- Add database entry about victim's status in Cloudant database.
 
 #### Cloudant NoSql Database service
 Managed Database service created on IBM Cloud. It will store information about disaster & victim's information.
