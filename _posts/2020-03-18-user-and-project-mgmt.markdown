@@ -5,9 +5,7 @@ date:   2020-03-18
 categories: [openshift]
 ---
 
-# User & Project Management in OpenShift
-
-## Learn How to manager Users & Project in Openshift?
+# Learn How to manager Users & Project in Openshift?
 
 ## Objective
 - Create project **my-project**
