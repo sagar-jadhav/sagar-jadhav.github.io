@@ -16,7 +16,7 @@ Please book your slots here
 
 **Proposed agenda of the meeting:**
 
-Career guidance
+- Career guidance
 - How to learn new technologies?
 - How to get started with blogging?
 - How to keep yourself updated with latest technologies?
