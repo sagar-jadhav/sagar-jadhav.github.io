@@ -5,6 +5,8 @@ date:   2020-03-25
 categories: [openshift]
 ---
 
+![How to create route in OpenShift?](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/openshift/2.png)
+
 ## Objective
 - Access application via Service IP within cluster
 - Access application via Service IP outside cluster
