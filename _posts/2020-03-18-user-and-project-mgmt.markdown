@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "User & Project Management in OpenShift"
+title:  "How to manager users & project in OpenShift?"
 date:   2020-03-18
 categories: [openshift]
 ---
-
-# Learn How to manager Users & Project in Openshift?
 
 ## Objective
 - Create project **my-project**

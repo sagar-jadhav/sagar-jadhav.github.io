@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "Networking in OpenShift"
+title:  "How to create route in OpenShift?"
 date:   2020-03-25
 categories: [openshift]
 ---
-
-# Learn Openshift Networking concepts
 
 ## Objective
 - Access application via Service IP within cluster
