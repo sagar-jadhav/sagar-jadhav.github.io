@@ -47,4 +47,4 @@ oc scale dc nginx --replicas=1
 oc get pods --watch
 ```
 
-<iframe width="1106" height="622" src="https://www.youtube.com/embed/Ui2qgvx2Dgs" frameborder="0"></iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/Ui2qgvx2Dgs" frameborder="0" allowfullscreen></iframe>
