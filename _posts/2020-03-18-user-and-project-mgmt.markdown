@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to manager users & project in OpenShift?"
+title:  "How to manage users & project in OpenShift?"
 date:   2020-03-18
 categories: [openshift]
 ---
