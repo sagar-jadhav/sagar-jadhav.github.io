@@ -74,4 +74,4 @@ oc get route
 From browser, Browse https://<ROUTE_URL>
 ```
 
-<iframe width="1106" height="622" src="https://www.youtube.com/embed/yO-PECEA-Nc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/yO-PECEA-Nc" frameborder="0"></iframe>

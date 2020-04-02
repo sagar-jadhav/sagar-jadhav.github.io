@@ -115,4 +115,4 @@ oc get pods -o wide
 curl http://<POD_IP>:80
 ```
 
-<iframe width="1106" height="622" src="https://www.youtube.com/embed/NsTlJo2ih0Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/NsTlJo2ih0Y" frameborder="0"></iframe>
