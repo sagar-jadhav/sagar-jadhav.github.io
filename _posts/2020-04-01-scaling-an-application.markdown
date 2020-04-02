@@ -13,7 +13,7 @@ categories: [openshift]
 - Scale down nginx application using **oc scale** command
 
 ### Step 1: Deploy nginx application
-Refer [User & Project Management](./1_user_and_project_management.md) tutorial
+Refer [How to manager users & project in OpenShift?](https://developersthought.in/openshift/2020/03/18/user-and-project-mgmt.html) blog
 
 ### Step 2: List pods
 ```
