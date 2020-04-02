@@ -5,6 +5,8 @@ date:   2020-03-18
 categories: [openshift]
 ---
 
+![How to manager users & project in OpenShift?](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/openshift/1.png)
+
 ## Objective
 - Create project **my-project**
 - Create 2 Users **project-admin** & **project-developer**

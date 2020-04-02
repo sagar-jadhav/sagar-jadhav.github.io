@@ -5,6 +5,8 @@ date:   2020-04-01
 categories: [openshift]
 ---
 
+![How to scale an application in OpenShift?](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/openshift/3.png)
+
 ## Objective
 - Scale up nginx application using **oc scale** command
 - Scale up nginx application by updating **DeploymentConfig**
