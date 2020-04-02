@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "Scaling an Application in OpenShift"
+title:  "How to scale an application in OpenShift?"
 date:   2020-04-01
 categories: [openshift]
 ---
-
-#  Learn How to scale an application in OpenShift?
 
 ## Objective
 - Scale up nginx application using **oc scale** command
