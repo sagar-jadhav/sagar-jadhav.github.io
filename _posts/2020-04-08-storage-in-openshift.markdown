@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "How to use Persistent Storage in Openshift?"
+title:  "How to use Persistent Storage in OpenShift?"
 date:   2020-04-08
 categories: [openshift]
 ---
 
-![How to use Persistent Storage in Openshift?](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/openshift/4.png)
+![How to use Persistent Storage in OpenShift?](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/openshift/4.png)
 
 ## Objective
 - Deploy **Mongodb** Application
