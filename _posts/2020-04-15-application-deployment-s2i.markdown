@@ -2,7 +2,7 @@
 layout: post
 title:  "How to deploy application using Source to Image (S2I) in OpenShift?"
 date:   2020-04-15
-categories: [openshift]
+categories: [openshift, nodejs]
 ---
 
 ![How to deploy application using Source to Image (S2I) in OpenShift?](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/openshift/5.png)
