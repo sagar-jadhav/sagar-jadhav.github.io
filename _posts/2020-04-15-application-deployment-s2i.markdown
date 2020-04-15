@@ -1,18 +1,18 @@
 ---
 layout: post
-title:  "Application Deployment using S2I in OpenShift"
+title:  "How to deploy application using Source to Image (S2I) in OpenShift?"
 date:   2020-04-15
 categories: [openshift]
 ---
 
-# Learn How to deploy application using Source to Image (S2I) in OpenShift?
+![How to deploy application using Source to Image (S2I) in OpenShift?](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/openshift/5.png)
 
 ## Objective
 - Deploy Node JS Application using S2I
 - Update code
 - Rebuild Deployment
 
-### Step 1: Set up Openshift environment
+### Step 1: Set up OpenShift environment
 Go to [Katacoda.com](https://katacoda.com/openshift/courses/playgrounds/openshift39) & click on start scenario
 
 ### Step 2: Login with developer user
@@ -78,4 +78,4 @@ oc get pods --watch
 From browser, Browse <ROUTE_URL>
 ```
 
-<iframe width="1106" height="622" src="https://www.youtube.com/embed/4_PUu1tHKiI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/4_PUu1tHKiI" frameborder="0" allowfullscreen></iframe>
