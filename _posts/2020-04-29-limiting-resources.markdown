@@ -65,7 +65,9 @@ oc describe node localhost | grep -A 4 Allocated
 ```
 
 ### Step 8: Deploy nodejs application using s2i
-- oc new-app -i nodejs:8 https://github.com/sagar-jadhav/node-hello --name nodejs -l app=demo
+```
+oc new-app -i nodejs:8 https://github.com/sagar-jadhav/node-hello --name nodejs -l app=demo
+```
 
 ### Step 9: Describe quota
 ```
