@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Limiting Resources in OpenShift"
-date:   2020-04-22
-categories: [openshift]
+title:  "How to limit resources using Quotas & Limit Ranges in OpenShift?"
+date:   2020-04-29
+categories: [openshift, nodejs]
 ---
 
-# Learn How to limit resources using Quotas & Limit Ranges in OpenShift?
+![How to limit resources using Quotas & Limit Ranges in OpenShift?](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/openshift/7.png)
 
 ## Objective
 - Create project **my-project**
@@ -13,8 +13,8 @@ categories: [openshift]
 - Deploy Node JS Application using S2I
 - Verify allocated Quota & Limits
 
-### Step 1: Set up Openshift environment
-Refer [Getting Started](./get_started.md) tutorial
+### Step 1: Set up OpenShift environment
+Go to [Katacoda.com](https://katacoda.com/openshift/courses/playgrounds/openshift39) & click on start scenario
 
 ### Step 2: Create project my-project
 ```
@@ -106,4 +106,4 @@ oc get pods
 ```
 oc get events
 ``` 
-<iframe width="1106" height="622" src="https://www.youtube.com/embed/BVCpuUUGHuc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/BVCpuUUGHuc" frameborder="0" allowfullscreen></iframe>
