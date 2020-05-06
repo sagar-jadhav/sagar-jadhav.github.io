@@ -1,18 +1,18 @@
 ---
 layout: post
-title:  "Application Deployment using Templates in OpenShift"
+title:  "How to deploy application using Templates in OpenShift?"
 date:   2020-05-06
 categories: [openshift]
 ---
 
-# Learn How to deploy application using Templates in OpenShift?
+![How to deploy application using Templates in OpenShift?](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/openshift/8.png)
 
 ## Objective
 - Create project **my-project**
 - Deploy **PHP** Application using Templates
 
 ### Step 1: Set up Openshift environment
-Refer [Getting Started](./get_started.md) tutorial
+Go to [Katacoda.com](https://katacoda.com/openshift/courses/playgrounds/openshift39) & click on start scenario
 
 ### Step 2: Create project my-project
 ```
@@ -52,4 +52,4 @@ oc get route
 From browser, Browse http://<ROUTE_URL>
 ```
 
-<iframe width="1106" height="622" src="https://www.youtube.com/embed/bRdNnrpfb0Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/bRdNnrpfb0Y" frameborder="0" allowfullscreen></iframe>
