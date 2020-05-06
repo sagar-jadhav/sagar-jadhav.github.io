@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "How to deploy application using Templates in OpenShift?"
+title:  "How to deploy an application using Templates in OpenShift?"
 date:   2020-05-06
 categories: [openshift]
 ---
 
-![How to deploy application using Templates in OpenShift?](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/openshift/8.png)
+![How to deploy an application using Templates in OpenShift?](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/openshift/8.png)
 
 ## Objective
 - Create project **my-project**
