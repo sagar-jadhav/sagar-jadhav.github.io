@@ -22,6 +22,7 @@ Checkout [here](https://velero.io/) for more details
 # Architecture
 
 ![Velero Architecture](https://velero.io/docs/v1.5/img/backup-process.png)
+
 **Source:** [https://velero.io/docs/v1.5/img/backup-process.png](https://velero.io/docs/v1.5/img/backup-process.png)
 
 Velero supports the following operations:
