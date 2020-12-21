@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A quick introduction to Velero"
-date:   2020-12-19
+date:   2020-12-21
 categories: [kubernetes]
 ---
 
