@@ -7,7 +7,7 @@ categories: [terraform]
 
 ![Executing Shell Script in Terraform via Null Resource](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/terraform_null_resource.png)
 
-Null Resource in Terraform implements all the lifecycle methods as compare to other resources but it doesn't take any action. It is very useful for many use cases but in this blog I will cover How I can use Null Resource to execute the shell script by using local exec provisioner during provision.
+Null Resource in Terraform implements all the lifecycle methods as compare to other resources but it doesn't take any action. It is very useful for many use cases but in this blog I will cover How can I use Null Resource to execute the shell script by using local exec provisioner during provision.
 
 ### Use Case
 Let say I am deploying some resources on private cloud (x-cloud) through terraform but provision should only start when x-cloud is up & running. x-cloud exposed a `REST` API for health check, Hence as part of provisioning I should first check whether x-cloud is up & running, If it is running then continue with the provisioning otherwise stop the provisioning.
