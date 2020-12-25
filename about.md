@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-### Why Blogging ?
+### Why Blogging?
 
-Writing blogs is one of the unique way to share your thoughts, ideas, experience & opinion with broader audience, Developer's Thought is one of my initiative to share my thoughts as a developer on various topics, technologies, studies I do in my day to day activities.
+A blog is a unique way of sharing thoughts, ideas, experiences, and opinions with a broader audience. Developer's Thought is one of my initiative to share my thoughts as a Software Engineer on various topics, technologies, and tools I use and explore in my day to day activity. 
 
 ### About Me
 
-I am **Sagar Jadhav** currently working as **Cloud Developer** in **IBM Software Labs**. I am passionate about trending technologies and always try to learn and share about them in simplest manner. My mode of knowledge sharing is through **YouTube** Videos, Speaking in **Meetups/conferences**, **Webinars**. I am also an meetup organizer in [Pune Developer's Community](https://www.meetup.com/Pune-Developers-Community/).
-
-My current area of interest is Hybrid Cloud Space. I am currently involve in building next generation platform & application for Multi Cloud Management & Multi Cloud Deployment.
+I am a Software Engineer working as a Backend Developer for a multinational company in Pune. I am passionate about trending technologies and tools. I always try to learn and share about them in the simplest possible manner. My mode of knowledge sharing is through [YouTube](https://youtube.com/DevelopersThought), Meetups, Conferences, and Webinars and My area of interest are Hybrid Cloud, DevOps tools, and Infrastructure as a Code.
