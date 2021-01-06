@@ -10,7 +10,9 @@ categories: [openshift]
 # Introduction
 
 Redhat OpenShift is the Container Management and a Hybrid Cloud Platform.
+
 ![Containers](https://media.giphy.com/media/cUMNWzWZ5n75LvcCIe/giphy.gif)
+
 Features: 
 - Ability to develop & run containerized application
 - URL to access the containerized application
