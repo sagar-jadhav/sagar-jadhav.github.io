@@ -7,6 +7,8 @@ categories: [openshift]
 
 ![12 Useful OpenShift Commands You Should Know](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/openshift_commands.png)
 
+# Introduction
+
 Redhat OpenShift is the Container Management and a Hybrid Cloud Platform.
 ![Containers](https://media.giphy.com/media/cUMNWzWZ5n75LvcCIe/giphy.gif)
 Features: 
