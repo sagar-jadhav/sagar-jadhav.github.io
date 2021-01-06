@@ -24,6 +24,8 @@ Checkout [documentation](https://docs.openshift.com/) for more details. `OC` CLI
 
 # 12 Useful OpenShift Commands
 
+![12 Useful OpenShift Commands](https://media.giphy.com/media/LnFnoEGtO6DlUYpyzm/giphy.gif)
+
 I. Create Service Account `testsa`
 ````
 oc create sa testsa
