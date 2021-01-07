@@ -9,22 +9,13 @@ categories: [openshift]
 
 # Introduction
 
-Redhat OpenShift is the Container Management and a Hybrid Cloud Platform.
+Redhat OpenShift is a Container Management and a Hybrid Cloud Platform. It gives you the ability to develop and run containerized applications along with OOTB integration with existing DevOps tools. Checkout OpenShift [documentation](https://docs.openshift.com/) for more details.
 
 ![Containers](https://media.giphy.com/media/cUMNWzWZ5n75LvcCIe/giphy.gif)
 
-Features: 
-- Ability to develop & run containerized application
-- URL to access the containerized application
-- OOTB integration with existing DevOps tools
-
-Many More...
-
-Checkout [documentation](https://docs.openshift.com/) for more details. `OC` CLI is used to work with OpenShift. `OC` CLI offers similar capabilities as of `kubectl` with the additional support for native OpenShift features. Visit [here](https://docs.openshift.com/container-platform/4.6/cli_reference/openshift_cli/getting-started-cli.html#installing-the-cli) for the instructions to install `OC` CLI.
+`OC` CLI is used to perform various operations on OpenShift. It is similar to `kubectl` CLI and offers all the operations that you can perform with `kubectl` CLI plus additional support for native OpenShift features. Checkout `OC` CLI [documentation](https://docs.openshift.com/container-platform/4.6/cli_reference/openshift_cli/getting-started-cli.html#installing-the-cli) for more details.
 
 # 12 Useful OpenShift Commands
-
-![12 Useful OpenShift Commands](https://media.giphy.com/media/LnFnoEGtO6DlUYpyzm/giphy.gif)
 
 I. Create Service Account `testsa`
 ````
@@ -32,9 +23,9 @@ oc create sa testsa
 ````
 II. Add `anyuid` SCC to Service Account `testsa`
 ````
-oc add policy add-scc-to-user anyuid -z testa
+oc adm policy add-scc-to-user anyuid -z testa
 ````
-III. Deploy `nginx` application using Docker Hub `nginx` image with label `app=test`
+III. Deploy `nginx` application using `nginx` Docker Image from Docker Hub with label `app=test`
 ````
 oc new-app --docker-image nginx --name nginx -l app=test
 ````
