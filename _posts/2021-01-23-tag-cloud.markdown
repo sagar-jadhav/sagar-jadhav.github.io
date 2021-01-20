@@ -7,13 +7,12 @@ categories: [cloud,terraform]
 
 ![12 Useful OpenShift Commands You Should Know](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/tag_cloud_resource.png)
 
-
 - [Introduction](#introduction)
-- [Types of Tag](#types-of-tag)
-	- [I. System Tag](#i-system-tag)
-	- [II. User Tag](#ii-user-tag)
+- [Types of Tagging](#types-of-tagging)
+	- [I. Automated Tagging](#i-automated-tagging)
+	- [II. Manual Tagging](#ii-manual-tagging)
 - [Tagging Best Practices](#tagging-best-practices)
-- [Why Tag a Cloud resource?](#why-tag-a-resource)
+- [Why Tag a Cloud resource?](#why-tag-a-cloud-resource)
 - [Demo](#demo)
 	- [Provision EC2 instance through Terraform](#provision-ec2-instance-through-terraform)
 	- [Provision EC2 instance through AWS Console](#provision-ec2-instance-through-aws-console)
@@ -22,11 +21,11 @@ categories: [cloud,terraform]
 
 Labeling a Cloud resource in `key:value` format is known as Tagging. Labels should contain meaningful information. For e.g. To mark the `EC2` instance as a production environment you can tag it with the label `env:prod`
 
-## Types of Tag
+## Types of Tagging
 
-### I. System Tag
+### I. Automated Tagging
 
-System Tag is a machine-generated Tag applied to resources at the time of provisioning. You can use it in case of provisioning a resource through an automation tool like [Terraform](https://www.terraform.io/)
+Automated Tagging is a process of applying machine-generated Tag to resources at the time of provisioning. You can use it in case of provisioning a resource through an automation tool like [Terraform](https://www.terraform.io/)
 
 **Examples:**
 
@@ -35,9 +34,9 @@ System Tag is a machine-generated Tag applied to resources at the time of provis
 - `id:12456`: Unique identifier of the resource.
 - `group:finance`: A group that owns the resource.
 
-### II. User Tag
+### II. Manual Tagging
 
-User Tag is applied manually to resources at the time of provisioning. You can use it in case of provisioning a resource through UI.
+In Manual Tagging, a Tag is applied manually to resources at the time of provisioning. You can use it in case of provisioning a resource through UI.
 
 **Examples:**
 
@@ -59,11 +58,11 @@ User Tag is applied manually to resources at the time of provisioning. You can u
 
 ## Demo
 
-Let us understand System Tag & User Tag through the following examples:
+Let us understand Automated Tagging & Manual Tagging through the following examples:
 
 ### Provision EC2 instance through Terraform
 
-In this example, you will learn How to tag an EC2 instance with System Tag `timestamp` through [Terraform](https://www.terraform.io/). Check out [documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) to configure AWS connection before proceeding with the below steps.
+In this example, you will learn How to apply the `timestamp` tag to the EC2 instance through [Terraform](https://www.terraform.io/). Check out [documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) to configure AWS connection before proceeding with the below steps.
 
 I. Create a file called `main.tf` and add the below content to it
 
@@ -101,21 +100,21 @@ III. Run `terraform plan` command
 
 IV. Run `terraform apply` command
 
-V. Verify EC2 instance provisioned with `timestamp` System Tag
+V. Verify EC2 instance provisioned with `timestamp` Tag
 
-![EC2 instance with timestamp System Tag](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/systemtag1.png)
+![EC2 instance with timestamp Tag](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/systemtag1.png)
 
 
 ### Provision EC2 instance through AWS Console
 
-In this example, you will learn How to tag an EC2 instance with User Tag `env` through AWS Console.
+In this example, you will learn How to apply the `env` tag to the EC2 instance through AWS Console.
 
 I. Login to [AWS Console](https://aws.amazon.com/console/)
 
-II. Launch EC2 instance and tag `env` User Tag as follows:
+II. Launch EC2 instance and tag `env` Tag as follows:
 
-![Adding User Tag env to EC2 instance](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/usertag2.png)
+![Adding Tag env to EC2 instance](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/usertag2.png)
 
-III. Verify EC2 instance provisioned with `env` User Tag
+III. Verify EC2 instance provisioned with `env` Tag
 
-![EC2 instance with env User Tag](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/usertag1.png)
+![EC2 instance with env Tag](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/usertag1.png)
