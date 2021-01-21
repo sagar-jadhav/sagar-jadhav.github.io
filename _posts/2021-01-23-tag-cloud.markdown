@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to effectively Tag a Cloud resource?"
+title:  "How to effectively Tag a Cloud Resource?"
 date:   2021-01-23
 categories: [cloud,terraform]
 ---
@@ -12,37 +12,40 @@ categories: [cloud,terraform]
 	- [I. Automated Tagging](#i-automated-tagging)
 	- [II. Manual Tagging](#ii-manual-tagging)
 - [Tagging Best Practices](#tagging-best-practices)
-- [Why Tag a Cloud resource?](#why-tag-a-cloud-resource)
+- [Why Tag a Cloud Resource?](#why-tag-a-cloud-resource)
 - [Demo](#demo)
-	- [Provision EC2 instance through Terraform](#provision-ec2-instance-through-terraform)
-	- [Provision EC2 instance through AWS Console](#provision-ec2-instance-through-aws-console)
+	- [Add `timestamp` tag to EC2 instance through Terraform](#add-timestamp-tag-to-ec2-instance-through-terraform)
+	- [Add `env` tag EC2 instance through AWS Console](#add-env-tag-ec2-instance-through-aws-console)
+- [Glossary](#glossary)
+	- [Cloud Resource](#cloud-resource)
+	- [Provision](#provision)
 
 ## Introduction
 
-Labeling a Cloud resource in `key:value` format is known as Tagging. Labels should contain meaningful information. For e.g. To mark the `EC2` instance as a production environment you can tag it with the label `env:prod`
+Labeling a Cloud Resource in `key:value` format is known as Tagging. Labels should contain meaningful information. For e.g. To mark the `EC2` instance as a production environment you can tag it with the label `env:prod`.
 
 ## Types of Tagging
 
 ### I. Automated Tagging
 
-Automated Tagging is a process of applying machine-generated Tag to resources at the time of provisioning. You can use it in case of provisioning a resource through an automation tool like [Terraform](https://www.terraform.io/)
+Automated Tagging is a method of adding machine-generated Tag to Cloud Resource at the time of provisioning. You can use Automated Tagging in case of provisioning a Cloud Resource through an automation tool like [Terraform](https://www.terraform.io/)
 
 **Examples:**
 
-- `user:sagar`: A user who provisioned the resource. 
+- `user:sagar`: A user who provisioned the Cloud Resource. 
 - `timestamp:06/01/22 04:11:05`: Time of provisioning.
-- `id:12456`: Unique identifier of the resource.
-- `group:finance`: A group that owns the resource.
+- `id:12456`: Unique identifier of the Cloud Resource.
+- `group:finance`: A group that owns the Cloud Resource.
 
 ### II. Manual Tagging
 
-In Manual Tagging, a Tag is applied manually to resources at the time of provisioning. You can use it in case of provisioning a resource through UI.
+Manual Tagging is a method of adding Tag manually to Cloud Resource at the time of provisioning. You can use Manual Tagging in case of provisioning a Cloud Resource through UI.
 
 **Examples:**
 
-- `purpose:poc`: The purpose behind provisioning a resource.
-- `env:prod`: Name of the environment where the resource is provisioned.
-- `cleanup:yes`: Delete a resource after certain days. 
+- `purpose:poc`: The purpose behind provisioning a Cloud Resource.
+- `env:prod`: Name of the environment where the Cloud Resource is provisioned.
+- `cleanup:yes`: Delete a Cloud Resource after certain days. 
 
 ## Tagging Best Practices
 
@@ -50,19 +53,19 @@ In Manual Tagging, a Tag is applied manually to resources at the time of provisi
 - Don't use any special character especially `@`.
 - Use underscore `_` instead of space.
 
-## Why Tag a Cloud resource?
+## Why Tag a Cloud Resource?
 
-- To group resources. For e.g. If an application has multiple resources then you can tag them with the label `app:myapp`.
-- To delete resources after certain days. For e.g. You can implement a policy that resources will be automatically deleted after 7 days If they are tagged with a `cleanup:yes` label.
-- For audit purposes. For e.g. You can generate a User per Resource report i.e How many resources are owned by a particular User? By looking at the `owner:sagar` Tag.
+- To group Cloud Resources. For e.g. If an application has multiple Cloud Resources then you can tag them with the label `app:myapp`.
+- To delete Cloud Resources after certain days. For e.g. You can implement a policy that Cloud Resources will be automatically deleted after 7 days If they are tagged with a `cleanup:yes` label.
+- For audit purposes. For e.g. You can generate a User per Cloud Resource report i.e How many Cloud Resources are owned by a particular User? By looking at the `owner:sagar` Tag.
 
 ## Demo
 
-Let us understand Automated Tagging & Manual Tagging through the following examples:
+Let us understand Automated & Manual Tagging through the following examples:
 
-### Provision EC2 instance through Terraform
+### Add `timestamp` tag to EC2 instance through Terraform
 
-In this example, you will learn How to apply the `timestamp` tag to the EC2 instance through [Terraform](https://www.terraform.io/). Check out [documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) to configure AWS connection before proceeding with the below steps.
+In this example, you will learn How to add the `timestamp` tag to the EC2 instance through [Terraform](https://www.terraform.io/) at the time of provisioning. Check out [documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) to configure AWS connection before proceeding with the below steps.
 
 I. Create a file called `main.tf` and add the below content to it
 
@@ -105,16 +108,24 @@ V. Verify EC2 instance provisioned with `timestamp` Tag
 ![EC2 instance with timestamp Tag](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/systemtag1.png)
 
 
-### Provision EC2 instance through AWS Console
+### Add `env` tag EC2 instance through AWS Console
 
-In this example, you will learn How to apply the `env` tag to the EC2 instance through AWS Console.
+In this example, you will learn How to add the `env` tag to the EC2 instance through AWS Console at the time of provisioning.
 
 I. Login to [AWS Console](https://aws.amazon.com/console/)
 
-II. Launch EC2 instance and tag `env` Tag as follows:
+II. Launch EC2 instance and add `env` Tag as follows:
 
 ![Adding Tag env to EC2 instance](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/usertag2.png)
 
 III. Verify EC2 instance provisioned with `env` Tag
 
 ![EC2 instance with env Tag](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/usertag1.png)
+
+## Glossary
+
+### Cloud Resource
+A resource deployed in Cloud. For e.g. EC2 instance, SNS service, Managed Kubernetes Service, etc.
+
+### Provision
+A process of deploying or creating Cloud Resources in Cloud. For e.g. Launching EC2 instance in AWS.
