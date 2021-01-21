@@ -15,7 +15,7 @@ categories: [cloud,terraform]
 - [Why Tag a Cloud Resource?](#why-tag-a-cloud-resource)
 - [Demo](#demo)
 	- [Add `timestamp` tag to EC2 instance through Terraform](#add-timestamp-tag-to-ec2-instance-through-terraform)
-	- [Add `env` tag EC2 instance through AWS Console](#add-env-tag-ec2-instance-through-aws-console)
+	- [Add `env` tag to EC2 instance through AWS Console](#add-env-tag-to-ec2-instance-through-aws-console)
 - [Glossary](#glossary)
 	- [Cloud Resource](#cloud-resource)
 	- [Provision](#provision)
@@ -28,7 +28,7 @@ Labeling a Cloud Resource in `key:value` format is known as Tagging. Labels shou
 
 ### I. Automated Tagging
 
-Automated Tagging is a method of adding machine-generated Tag to Cloud Resource at the time of provisioning. You can use Automated Tagging in case of provisioning a Cloud Resource through an automation tool like [Terraform](https://www.terraform.io/)
+Automated Tagging is a method of adding machine-generated Tag to Cloud Resource at the time of provisioning. You can use Automated Tagging in case of provisioning a Cloud Resource through an automation tool like [Terraform](https://www.terraform.io/).
 
 **Examples:**
 
@@ -108,7 +108,7 @@ V. Verify EC2 instance provisioned with `timestamp` Tag
 ![EC2 instance with timestamp Tag](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/systemtag1.png)
 
 
-### Add `env` tag EC2 instance through AWS Console
+### Add `env` tag to EC2 instance through AWS Console
 
 In this example, you will learn How to add the `env` tag to the EC2 instance through AWS Console at the time of provisioning.
 
