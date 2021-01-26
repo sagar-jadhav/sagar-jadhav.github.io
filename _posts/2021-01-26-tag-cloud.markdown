@@ -91,7 +91,7 @@ resource "aws_instance" "web" {
   instance_type = "m1.small"
 
   tags = {
-    Name = "systemtaggedvm"
+    Name = "automatedaggedvm"
     timestamp = "${timestamp()}"
   }
 }
