@@ -17,17 +17,17 @@ collections:
 social:
     #- icon: fa-facebook
     #  link: "#"
-    - icon: fa-twitter
-      link: "https://twitter.com/SagarJadhv23"
-    - icon: fa-linkedin
-      link: "https://linkedin.com/in/sagarjadhv23"
+    #- icon: fa-twitter
+    #  link: "#"
+    #- icon: fa-linkedin
+    #  link: "#"
     #- icon: fa-stack-exchange
     #  link: "#"
-    - icon: fa-github
-      link: "https://github.com/sagar-jadhav"
+    #- icon: fa-github
+    #  link: "#"
 
 share:
-  twitter_username: SagarJadhv23
+  #twitter_username: SagarJadhv23
   #fb_appid: 1749788565247320
 
 urls:
