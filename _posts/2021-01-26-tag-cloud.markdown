@@ -5,7 +5,7 @@ date:   2021-01-26
 categories: [cloud,terraform]
 ---
 
-![12 Useful OpenShift Commands You Should Know](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/tag_cloud_resource.png)
+![How to effectively Tag a Cloud Resource?](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/tag_cloud_resource.png)
 
 - [Introduction](#introduction)
 - [Types of Tagging](#types-of-tagging)
