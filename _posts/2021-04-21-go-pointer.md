@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Demystify Pointers in Go"
-date:   2021-03-27
+date:   2021-04-21
 categories: [go]
 ---
 
