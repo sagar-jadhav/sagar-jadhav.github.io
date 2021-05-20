@@ -1,8 +1,8 @@
 title: Developers Thought 
 #description: My Personal Stack Problems
 author: Sagar Jadhav
-github: https://github.com/sagar-jadhav
-about:  Backend Developer
+github: https://github.com/developersthought
+about:  Software Engineer
 #disqus_shortname: stackproblems
 google_analytics: UA-140202224-1
 
@@ -23,8 +23,8 @@ social:
     #  link: "#"
     #- icon: fa-stack-exchange
     #  link: "#"
-    #- icon: fa-github
-    #  link: "#"
+    - icon: fa-github
+      link: "https://github.com/developersthought"
 
 share:
   #twitter_username: SagarJadhv23
@@ -35,6 +35,8 @@ urls:
       url: /about/
     - text: Category
       url: /category/kubernetes
+    - text: Contact
+      url: /contact/  
     #- text: My Projects
     #  url: /projects/
     - text: XML Feed
