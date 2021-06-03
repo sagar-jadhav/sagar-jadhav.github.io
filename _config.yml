@@ -4,7 +4,7 @@ author: Sagar Jadhav
 github: https://github.com/developersthought
 about:  Software Engineer
 #disqus_shortname: stackproblems
-#google_analytics: #
+google_analytics: UA-140202224-1
 
 enableTags: true
 tagarray: []
