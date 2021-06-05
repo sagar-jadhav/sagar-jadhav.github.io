@@ -109,3 +109,13 @@ Angular App deployed on IBM Cloud.
 #### Running Demo
 ![Running Demo](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/hackathon_project/demo.gif)
 
+### Support Me
+
+You can support my work through the following If you find it useful:
+
+- [Buy me a coffee](https://www.buymeacoffee.com/sagarjadhv23)
+- Tweet me [@sagarjadhv23](https://twitter.com/sagarjadhv23)
+
+### Feedback
+
+Report an issue [here](https://github.com/developersthought/roadmap/issues/new) If you find a bug or want to improve the content.

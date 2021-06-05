@@ -125,3 +125,14 @@ Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 ### References:
 - [Null Resource](https://www.terraform.io/docs/providers/null/resource.html)
 - [Local Exec](https://www.terraform.io/docs/provisioners/local-exec.html)
+
+### Support Me
+
+You can support my work through the following If you find it useful:
+
+- [Buy me a coffee](https://www.buymeacoffee.com/sagarjadhv23)
+- Tweet me [@sagarjadhv23](https://twitter.com/sagarjadhv23)
+
+### Feedback
+
+Report an issue [here](https://github.com/developersthought/roadmap/issues/new) If you find a bug or want to improve the content.

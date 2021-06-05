@@ -52,3 +52,14 @@ Velero uses cloud object storage as a source of truth. It synchronizes data betw
 - TTL (Time to Live) for backups. Backup resources will be deleted after TTL is reached
 - Different lifecycle hooks for both backup and restore operations
 - Supports namespace remapping i.e. K8s object from namespace `A` can be restored to namespace `B`
+
+### Support Me
+
+You can support my work through the following If you find it useful:
+
+- [Buy me a coffee](https://www.buymeacoffee.com/sagarjadhv23)
+- Tweet me [@sagarjadhv23](https://twitter.com/sagarjadhv23)
+
+### Feedback
+
+Report an issue [here](https://github.com/developersthought/roadmap/issues/new) If you find a bug or want to improve the content.

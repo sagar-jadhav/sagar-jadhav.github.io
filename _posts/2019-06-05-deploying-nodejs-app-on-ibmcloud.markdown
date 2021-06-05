@@ -163,3 +163,14 @@ Both **SDK for Node.js** & **Cloudant database service** comes free with IBM Clo
 - Student who want to develop & deploy application on Cloud for internal/external project.
 - Student or Working Professionals who are planning a start up and want a platform where application can be developed & deployed with no cost and less time.
 - Working professional who wants to do some kind of POC or want to explore Cloud.
+
+### Support Me
+
+You can support my work through the following If you find it useful:
+
+- [Buy me a coffee](https://www.buymeacoffee.com/sagarjadhv23)
+- Tweet me [@sagarjadhv23](https://twitter.com/sagarjadhv23)
+
+### Feedback
+
+Report an issue [here](https://github.com/developersthought/roadmap/issues/new) If you find a bug or want to improve the content.
