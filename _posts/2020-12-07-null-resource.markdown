@@ -29,6 +29,8 @@ else
 fi
 ```
 
+Refer to source code [here](https://github.com/developersthought/examples/blob/main/blog/null_resource_exec/healthcheck.sh).
+
 #### Step 2: Terraform file for provision
 
 main.tf
@@ -46,6 +48,8 @@ resource "null_resource" "health_check" {
   }
 }
 ```
+
+Refer to source code [here](https://github.com/developersthought/examples/blob/main/blog/null_resource_exec/main.tf).
 
 #### Step 3: Initializing Terraform
 
