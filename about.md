@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+![About Me](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/banner_v1.jpg)
+
 ### Why Blogging?
 
 A blog is a unique way of sharing thoughts, ideas, experiences, and opinions with a broader audience. Developer's Thought is one of my initiative to share my thoughts as a Software Engineer on various topics, technologies, and tools I use and explore in my day to day activity. 
