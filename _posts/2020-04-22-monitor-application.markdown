@@ -38,6 +38,13 @@ Refer [How to deploy application using Source to Image (S2I) in OpenShift?](http
 ### Step 9: Add liveness probe & save
 ![Step 9](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/openshift/probe_8.JPG)
 
-### Demo
+### Support Me
 
-<iframe width="480" height="360" src="https://www.youtube.com/embed/_y32cqqBH2Q" frameborder="0" allowfullscreen></iframe>
+You can support my work through the following If you find it useful:
+
+- [Buy me a coffee](https://www.buymeacoffee.com/sagarjadhv23)
+- Tweet me [@sagarjadhv23](https://twitter.com/sagarjadhv23)
+
+### Feedback
+
+Report an issue [here](https://github.com/developersthought/roadmap/issues/new) If you find a bug or want to improve the content.

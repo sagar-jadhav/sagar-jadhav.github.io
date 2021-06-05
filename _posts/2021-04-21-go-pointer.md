@@ -72,3 +72,14 @@ Refer to source code [here](https://github.com/developersthought/examples/blob/m
 5. Value of `s` is appended to the value of `Name` property and the result "Sagar Jadhav" assigned back to the `Name` property. Here `emp` variable is updated because variable `e` is a pointer to `emp` so any changes in `e` will also affect `emp`.
 
 Checkout [here](https://tour.golang.org/methods/4) for more details. 
+
+### Support Me
+
+You can support my work through the following If you find it useful:
+
+- [Buy me a coffee](https://www.buymeacoffee.com/sagarjadhv23)
+- Tweet me [@sagarjadhv23](https://twitter.com/sagarjadhv23)
+
+### Feedback
+
+Report an issue [here](https://github.com/developersthought/roadmap/issues/new) If you find a bug or want to improve the content.
