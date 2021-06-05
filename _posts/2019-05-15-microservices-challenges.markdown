@@ -26,3 +26,14 @@ As mentioned [**here**](https://martinfowler.com/articles/microservices.html) as
 **Unit** Tests, **Performance** Tests, **Manual** Tests, **API** Tests & **Automation** Tests are common for both monolithic & microservices based applications but in case of microservices we have to write other forms of tests as well which are **Integration** Tests & **Service to Service** communication tests. Integration Tests may or may not be require in both Monolithic & micro services as it depends whether your application is integrated with any other application or not but Service to Service communication tests plays crucial role in micro services based application as there are lot of interaction happens betwen multiple services even for a single transaction. **Contract** based tests should be written in this case so that one service should not break contract with other service.
 
 This are some of the challenges I faced while implementing micro services.
+
+### Support Me
+
+You can support my work through the following If you find it useful:
+
+- [Buy me a coffee](https://www.buymeacoffee.com/sagarjadhv23)
+- Tweet me [@sagarjadhv23](https://twitter.com/sagarjadhv23)
+
+### Feedback
+
+Report an issue [here](https://github.com/developersthought/roadmap/issues/new) If you find a bug or want to improve the content.
