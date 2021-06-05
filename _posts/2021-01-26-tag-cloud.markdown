@@ -97,6 +97,8 @@ resource "aws_instance" "web" {
 }
 ```
 
+Refer to source code [here](https://github.com/developersthought/examples/blob/main/blog/tag_cloud/main.tf).
+
 II. Run `terraform init` command
 
 III. Run `terraform plan` command

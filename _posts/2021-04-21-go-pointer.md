@@ -34,6 +34,8 @@ Let's see How `Pass By Value` works in Go.
 
 ![Pass By Value](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/pass_by_value.png)
 
+Refer to source code [here](https://github.com/developersthought/examples/blob/main/blog/demystify_pointers_in_go/pass_by_value/main.go).
+
 1. Variable `x` of type string is defined and the value "Sagar" is assigned to it.
 2. Method `addSurname()` is called with `x`, Here the value of `x` that is "Sagar" is copied to variable `y`
 3. String "Jadhav" is appended to the value of `y` and the result is assigned back to `y`.
@@ -45,6 +47,8 @@ So updating the value of `y` doesn't update the value of `x` as both are differe
 In the above example How to change the value of `x` by updating the value of `y`? Here Pointers come into the action. Yes, It is possible to update the value of one variable through other variables with the help of Pointers. Let me explain you through the below example:
 
 ![Pointer in Action](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/pointer_in_action.png)
+
+Refer to source code [here](https://github.com/developersthought/examples/blob/main/blog/demystify_pointers_in_go/pointer_in_action/main.go).
 
 1. Variable `x` of type string is defined and the value "Sagar" is assigned to it.
 2. Variable `y` of type string pointer is defined and the address of `x` is assigned to it.
@@ -58,6 +62,8 @@ The use of Pointer with Structs is very common, Hence understanding this concept
 ![Pointer Receiver](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/pointer_receiver_1.png)
 
 ![Pointer Receiver](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/pointer_receiver_2.png)
+
+Refer to source code [here](https://github.com/developersthought/examples/blob/main/blog/demystify_pointers_in_go/pointer_receiver/main.go).
 
 1. Variable `emp` of type employee struct is defined and the property `Name` is initialized with value "Sagar".
 2. Method Receiver `addTitle()` is called with string "Mr.", Here the string "Mr." is copied to variable `t`.
