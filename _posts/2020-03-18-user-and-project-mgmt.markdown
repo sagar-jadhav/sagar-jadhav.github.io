@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to manage users & project in OpenShift?"
-date:   2020-03-18
+date:   2022-03-18
 categories: [openshift]
 ---
 
@@ -115,14 +115,8 @@ oc get pods -o wide
 curl http://<POD_IP>:80
 ```
 
-### Support Me
+### Show Your Support
 
-You can support my work through the following If you find it useful:
-
-- [Buy me a coffee](https://www.buymeacoffee.com/sagarjadhv23)
-- Tweet me [@sagarjadhv23](https://twitter.com/sagarjadhv23)
-
-### Feedback
-
-Report an issue [here](https://github.com/developersthought/roadmap/issues/new) If you find a bug or want to improve the content.
+- [Buy me a coffee](https://www.buymeacoffee.com/sagarjadhv23) If you like the content and find it useful.
+- Report an issue [here](https://github.com/developersthought/roadmap/issues/new) If you find a bug or want to improve the content.
 
