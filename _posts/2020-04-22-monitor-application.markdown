@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to monitor application using probes in OpenShift?"
-date:   2020-04-22
+date:   2022-04-22
 categories: [openshift, nodejs]
 ---
 
@@ -38,13 +38,7 @@ Refer [How to deploy application using Source to Image (S2I) in OpenShift?](http
 ### Step 9: Add liveness probe & save
 ![Step 9](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/openshift/probe_8.JPG)
 
-### Support Me
+### Show Your Support
 
-You can support my work through the following If you find it useful:
-
-- [Buy me a coffee](https://www.buymeacoffee.com/sagarjadhv23)
-- Tweet me [@sagarjadhv23](https://twitter.com/sagarjadhv23)
-
-### Feedback
-
-Report an issue [here](https://github.com/developersthought/roadmap/issues/new) If you find a bug or want to improve the content.
+- [Buy me a coffee](https://www.buymeacoffee.com/sagarjadhv23) If you like the content and find it useful.
+- Report an issue [here](https://github.com/developersthought/roadmap/issues/new) If you find a bug or want to improve the content.

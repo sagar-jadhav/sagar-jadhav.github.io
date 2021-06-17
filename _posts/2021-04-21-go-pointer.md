@@ -11,6 +11,7 @@ categories: [go]
 - [Pass By Value](#pass-by-value)
 - [Pointer in Action](#pointer-in-action)
 - [Pointer Receiver](#pointer-receiver)
+- [Show Your Support](#show-your-support)
 
 ## Introduction
 
@@ -73,13 +74,7 @@ Refer to source code [here](https://github.com/developersthought/examples/blob/m
 
 Checkout [here](https://tour.golang.org/methods/4) for more details. 
 
-### Support Me
+## Show Your Support
 
-You can support my work through the following If you find it useful:
-
-- [Buy me a coffee](https://www.buymeacoffee.com/sagarjadhv23)
-- Tweet me [@sagarjadhv23](https://twitter.com/sagarjadhv23)
-
-### Feedback
-
-Report an issue [here](https://github.com/developersthought/roadmap/issues/new) If you find a bug or want to improve the content.
+- [Buy me a coffee](https://www.buymeacoffee.com/sagarjadhv23) If you like the content and find it useful.
+- Report an issue [here](https://github.com/developersthought/roadmap/issues/new) If you find a bug or want to improve the content.
