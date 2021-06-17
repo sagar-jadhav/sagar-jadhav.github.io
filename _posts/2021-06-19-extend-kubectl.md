@@ -7,7 +7,6 @@ categories: [kubernetes]
 
 ![A quick guide on How to extend kubectl with plugins?](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/kubectl-plugin.png)
 
-- [Purpose](#purpose)
 - [kubectl](#kubectl)
 - [Plugin](#plugin)
 	- [What is a plugin?](#what-is-a-plugin)
@@ -20,34 +19,26 @@ categories: [kubernetes]
 - [Notes](#notes)
 - [Show Your Support](#show-your-support)
 
-## Purpose
-
-1. To provide a step by step guide with minimal but yet important information on How to extend `kubectl` with plugins?
-2. To answer the following questions:
-   1. What is a plugin?
-   2. Why write a plugin?
-   3. How to write a plugin?
-
 ## kubectl
 
-`kubectl` is a command-line interface (CLI) tool used to interact with the `Kubernetes` cluster. With the help of `kubectl` you can perform the following operations on the `Kubernetes` cluster:
+`kubectl` is a command-line interface (CLI) used to interact with the `Kubernetes` cluster. With the help of kubectl you can perform the following operations on the Kubernetes cluster:
 1. Deploy & Manage containerize application.
 2. Connect to multiple Kubernetes clusters.
 3. Get Kubernetes cluster information.
 4. Many more...
 
-Visit [here](https://kubernetes.io/docs/reference/kubectl/overview/) for more detail on `kubectl`. 
+Visit [here](https://kubernetes.io/docs/reference/kubectl/overview/) for more detail on kubectl. 
  
 ## Plugin
 
 ### What is a plugin?
 
-- `kubectl` plugin is a standalone executable file used to enhance the functionality of `kubectl` with new subcommands.
-- With plugins, you can add new features to `kubectl` as per your requirement.
+- kubectl plugin is a standalone executable file used to enhance the functionality of kubectl with new subcommands.
+- With plugins, you can add new features to kubectl as per your requirement.
 
 ### Why write a plugin?
 
-To build a complex use case using existing `kubectl` commands. Let us understand this with the following use case:
+To build a complex use case using existing kubectl commands. Let us understand this with the following use case:
 
 #### Restart a Pod
 
@@ -55,11 +46,14 @@ To restart a `Pod` you can use the following methods:
 
 ##### Method 1
 
-- Retrieve the `Pod` name using the following command:
+- Retrieve the Pod name using the following command:
+  
   ```
   kubectl get pods
   ```
-- Delete the `Pod` using the following command:
+
+- Delete the Pod using the following command:
+  
   ```
   kubectl delete pod <POD_NAME>
   ``` 
@@ -67,25 +61,30 @@ To restart a `Pod` you can use the following methods:
 ##### Method 2
 
 - Retrieve the `Deployment` name using the following command:
+  
   ```
   kubectl get deployment
   ```
+
 - Scale down the replica to zero using the following command:
+  
   ```
   kubectl scale --replicas=0 deploy/<DEPLOYMENT_NAME>
   ```
+
 - Scale up the replica to one using the following command:
+  
   ```
   kubectl scale --replicas=1 deploy/<DEPLOYMENT_NAME>
   ```
   
-**Note:** Both the methods are valid only If `Pod` is created through `Deployment`.
+**Note:** Both the methods are valid only If Pod is created through Deployment.
 
-In both the methods to restart a Pod You have to execute multiple `kubectl` commands. But can you achieve the same using a single command? The answer is YES. Through plugins, you can wrap the above `kubectl` commands into a single command. For example, You can have a command like `kubectl restart pod nginx` where `nginx` is the name of the Deployment.
+In both the methods to restart a Pod You have to execute multiple kubectl commands. But can you achieve the same using a single command? The answer is YES. Through plugins, you can wrap the above kubectl commands into a single command. For example, You can have a command like `kubectl restart pod nginx` where `nginx` is the name of the Deployment.
 
 ### How to write a plugin?
 
-Let us understand the whole process step by step by writing a plugin for the `Restart a Pod` use case.
+Let us understand the whole process step by step by writing a plugin for the **Restart a Pod** use case.
 
 1. Create a file called `kubectl-restart-pod.sh` by using the following command:
 
@@ -203,7 +202,7 @@ Let us understand the whole process step by step by writing a plugin for the `Re
 
 ### Demo
 
-1. Install `jq` on the workstation machine, where you can access the `Kubernetes` cluster. Visit [here](https://stedolan.github.io/jq/) for steps to install `jq`.
+1. Install `jq` on the workstation machine, where you can access the `Kubernetes` cluster. Visit [here](https://stedolan.github.io/jq/) for steps to install jq.
 
 2. List all the available plugin by using the following command:
 
@@ -225,7 +224,7 @@ Let us understand the whole process step by step by writing a plugin for the `Re
    kubectl create deploy nginx --image=nginx:latest -n demo
    ```
 
-5. Check the status of `nginx` Pod by using the following command:
+5. Check the status of nginx Pod by using the following command:
 
    ```
    kubectl get po -n demo
@@ -233,7 +232,7 @@ Let us understand the whole process step by step by writing a plugin for the `Re
 
    `nginx` Pod should be in the `Running` state.
 
-6. Restart the `nginx` Pod by using the following command:
+6. Restart the nginx Pod by using the following command:
 
    ```
    kubectl restart pod nginx -n demo
@@ -241,8 +240,11 @@ Let us understand the whole process step by step by writing a plugin for the `Re
 
 ## Notes
 
-- As a prerequisite, you should have `kubectl` CLI installed on your workstation machine, where you can access the `Kubernetes` cluster. Visit [here](https://kubernetes.io/docs/tasks/tools/) for steps to install `kubectl` CLI.
+- As a prerequisite, you should have kubectl CLI installed on your workstation machine, where you can access the `Kubernetes` cluster. Visit [here](https://kubernetes.io/docs/tasks/tools/) for steps to install kubectl CLI.
 - Name of the plugin standalone executable file should start with `kubectl-` for example `kubectl-restart-pod.sh`
-- You cannot override the existing `kubectl` command using plugins for example you cannot create a plugin `kubectl-delete-pod`. If you create such plugin then it will be ignored when you run `kubectl delete pod` command. 
+- You cannot override the existing kubectl command using plugins for example you cannot create a plugin `kubectl-delete-pod`. If you create such plugin then it will be ignored when you run `kubectl delete pod` command. 
 
 ## Show Your Support
+
+- [Buy me a coffee](https://www.buymeacoffee.com/sagarjadhv23) If you like the content and find it useful.
+- Report an issue [here](https://github.com/developersthought/roadmap/issues/new) If you find a bug or want to improve the content.
