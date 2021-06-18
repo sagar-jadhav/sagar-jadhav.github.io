@@ -5,7 +5,15 @@ date:   2020-12-07
 categories: [terraform]
 ---
 
-![Executing Shell Script in Terraform via Null Resource](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/terraform_null_resource.png)
+<!-- ![Executing Shell Script in Terraform via Null Resource](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/terraform_null_resource.png) -->
+
+- [Use Case](#use-case)
+	- [Step 1: Shell script to perform health check](#step-1-shell-script-to-perform-health-check)
+	- [Step 2: Terraform file for provision](#step-2-terraform-file-for-provision)
+	- [Step 3: Initializing Terraform](#step-3-initializing-terraform)
+	- [Step 4: Provisioning resources](#step-4-provisioning-resources)
+- [References:](#references)
+- [Show Your Support](#show-your-support)
 
 Null Resource in Terraform implements all the lifecycle methods as compare to other resources but it doesn't take any action. It is very useful for many use cases but in this blog I will cover How can I use Null Resource to execute the shell script by using local exec provisioner during provision.
 

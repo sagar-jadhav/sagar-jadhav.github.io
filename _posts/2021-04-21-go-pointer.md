@@ -5,7 +5,7 @@ date:   2021-04-21
 categories: [go]
 ---
 
-![Demystify Pointers in Go](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/pointers_go.png)
+<!-- ![Demystify Pointers in Go](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/pointers_go.png) -->
 
 - [Introduction](#introduction)
 - [Pass By Value](#pass-by-value)
@@ -13,7 +13,7 @@ categories: [go]
 - [Pointer Receiver](#pointer-receiver)
 - [Show Your Support](#show-your-support)
 
-## Introduction
+### Introduction
 
 Pointers is Go is one of the most complex concepts especially for beginners. In this blog, I have explained the Pointers in a very simple format through visualization and point-by-point explanation. Please read the full blog for complete understanding. To start with let me give you the definition of Pointers:
 
@@ -23,7 +23,7 @@ Pointer stores the memory address of the variable instead of the value of a vari
 
 This makes it different from other types of variables.
 
-## Pass By Value
+### Pass By Value
 
 Let me explain to you the concept of `Pass By Value` before going deep in understanding Pointers. If you understand this then It will help you in understanding the code with extensive use of Pointers. In `Pass By Value` the value of a variable is copied into the calling method argument instead of the reference or memory address of the variable. Just remember this simple formula:
 
@@ -43,7 +43,7 @@ Refer to source code [here](https://github.com/developersthought/examples/blob/m
 
 So updating the value of `y` doesn't update the value of `x` as both are different variables but storing the same value.
 
-## Pointer in Action
+### Pointer in Action
 
 In the above example How to change the value of `x` by updating the value of `y`? Here Pointers come into the action. Yes, It is possible to update the value of one variable through other variables with the help of Pointers. Let me explain you through the below example:
 
@@ -56,7 +56,7 @@ Refer to source code [here](https://github.com/developersthought/examples/blob/m
 3. Method `addSurname()` is called with `y`, Here the value of `y` that is the address of `x` is copied to variable `z`.
 4. String "Jadhav" is appended to the value at address stored in `z` and the result "Sagar Jadhav" is assigned back to the variable at the address stored in `z`. Sounds complicated, Map this point with the above picture for better understanding.
 
-## Pointer Receiver
+### Pointer Receiver
 
 The use of Pointer with Structs is very common, Hence understanding this concept is a must. Let's get deep-dive through the below example:
 
@@ -74,7 +74,7 @@ Refer to source code [here](https://github.com/developersthought/examples/blob/m
 
 Checkout [here](https://tour.golang.org/methods/4) for more details. 
 
-## Show Your Support
+### Show Your Support
 
 - [Buy me a coffee](https://www.buymeacoffee.com/sagarjadhv23) If you like the content and find it useful.
 - Report an issue [here](https://github.com/developersthought/roadmap/issues/new) If you find a bug or want to improve the content.
