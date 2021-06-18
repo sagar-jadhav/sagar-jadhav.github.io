@@ -5,9 +5,13 @@ date:   2021-01-09
 categories: [openshift]
 ---
 
-![12 Useful OpenShift Commands You Should Know](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/openshift_commands.png)
+<!-- ![12 Useful OpenShift Commands You Should Know](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/openshift_commands.png) -->
 
-# Introduction
+- [Introduction](#introduction)
+- [12 Useful OpenShift Commands](#12-useful-openshift-commands)
+- [Show Your Support](#show-your-support)
+
+### Introduction
 
 Redhat OpenShift is a Container Management and a Hybrid Cloud Platform. It gives you the ability to develop and run containerized applications along with OOTB integration with existing DevOps tools. Checkout OpenShift [documentation](https://docs.openshift.com/) for more details.
 
@@ -15,7 +19,7 @@ Redhat OpenShift is a Container Management and a Hybrid Cloud Platform. It gives
 
 `OC` CLI is used to perform various operations on OpenShift. It is similar to `kubectl` CLI and offers all the operations that you can perform with `kubectl` CLI plus additional support for native OpenShift features. Checkout `OC` CLI [documentation](https://docs.openshift.com/container-platform/4.6/cli_reference/openshift_cli/getting-started-cli.html#installing-the-cli) for more details.
 
-# 12 Useful OpenShift Commands
+### 12 Useful OpenShift Commands
 
 I. Create Service Account `testsa`
 ````
@@ -66,7 +70,7 @@ XII. Create secret `user-creds` with values `user=admin` and `password=admin`
 oc create secret generic user-creds --from-literal='user'='admin' --from-literal='password'='admin'
 ````
 
-# Show Your Support
+### Show Your Support
 
 - [Buy me a coffee](https://www.buymeacoffee.com/sagarjadhv23) If you like the content and find it useful.
 - Report an issue [here](https://github.com/developersthought/roadmap/issues/new) If you find a bug or want to improve the content.
