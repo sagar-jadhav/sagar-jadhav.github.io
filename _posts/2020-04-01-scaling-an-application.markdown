@@ -5,55 +5,57 @@ date:   2020-04-01
 categories: [openshift]
 ---
 
-![How to scale an application in OpenShift?](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/openshift/3.png)
+<!-- ![How to scale an application in OpenShift?](https://raw.githubusercontent.com/sagar-jadhav/sagar-jadhav.github.io/master/static/img/_posts/openshift/3.png) -->
 
-## Objective
+### Objective
 - Scale up nginx application using **oc scale** command
 - Scale up nginx application by updating **DeploymentConfig**
 - Scale down nginx application using **oc scale** command
 
-### Step 1: Deploy nginx application
+**Step 1:** Deploy `nginx` application.
 Refer [How to manager users & project in OpenShift?](https://developersthought.in/openshift/2020/03/18/user-and-project-mgmt.html) blog
 
-### Step 2: List pods
+**Step 2:** List pods
+
 ```
 oc get pods
 ```
 
-### Step 3: Scale up nginx application using oc scale command
+**Step 3:** Scale up nginx application using oc scale command
+
 ```
 oc scale dc nginx --replicas=5
 ```
+
 ```
 oc get pods --watch
 ```
 
-### Step 4: Scale up nginx application by updating DeploymentConfig
+**Step 4:** Scale up nginx application by updating DeploymentConfig
+
 ```
 oc edit dc nginx
 ```
+
 ```
 update replicas = 7
 ```
+
 ```
 oc get pods --watch
 ```
 
-### Step 5: Scale down nginx application using oc scale command
+**Step 5:** Scale down nginx application using oc scale command
+
 ```
 oc scale dc nginx --replicas=1
 ```
+
 ```
 oc get pods --watch
 ```
 
-### Support Me
+### Show Your Support
 
-You can support my work through the following If you find it useful:
-
-- [Buy me a coffee](https://www.buymeacoffee.com/sagarjadhv23)
-- Tweet me [@sagarjadhv23](https://twitter.com/sagarjadhv23)
-
-### Feedback
-
-Report an issue [here](https://github.com/developersthought/roadmap/issues/new) If you find a bug or want to improve the content.
+- [Buy me a coffee](https://www.buymeacoffee.com/sagarjadhv23) If you like the content and find it useful.
+- Report an issue [here](https://github.com/developersthought/roadmap/issues/new) If you find a bug or want to improve the content.
