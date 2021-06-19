@@ -199,7 +199,7 @@ Let us understand the whole process step by step by writing a plugin for the **R
 
 1. Install `jq` on the workstation machine, where you can access the `Kubernetes` cluster. Visit [here](https://stedolan.github.io/jq/) for steps to install jq.
 
-2. List all the available plugin by using the following command:
+2. List all the available plugins by using the following command:
 
    ```
    kubectl plugin list
